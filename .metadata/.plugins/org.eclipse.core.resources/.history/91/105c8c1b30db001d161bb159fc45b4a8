@@ -1,0 +1,17 @@
+package Modelos;
+
+import java.util.ArrayList;
+
+import lombok.Data;
+
+@Data
+public class Ronda {
+	private int numero;
+	private ArrayList<Partido> partidos = new ArrayList<Partido>();
+	
+	
+	public Ronda(int numero) {
+		super();
+		this.numero = numero;
+	}
+}

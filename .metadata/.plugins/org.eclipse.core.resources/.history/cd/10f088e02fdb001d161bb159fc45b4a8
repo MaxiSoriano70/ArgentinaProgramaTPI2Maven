@@ -1,0 +1,10 @@
+package Modelos;
+
+public class Usuario extends Persona{
+	private ArrayList<Ronda> rondas = new ArrayList<Ronda>();
+	private int puntaje;
+
+	public Usuario(String nombreCompleto, String dni) {
+		super(nombreCompleto, dni);
+	}
+}

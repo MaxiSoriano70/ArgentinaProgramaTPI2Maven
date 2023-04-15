@@ -1,0 +1,12 @@
+package Modelos;
+
+public class Partido {
+	private Equipo local;
+	private Equipo visitante;
+	private EGanador ganador;
+	
+	public Partido(Equipo local, Equipo visitante) {
+		this.local = local;
+		this.visitante = visitante;
+	}
+}

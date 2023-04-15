@@ -1,0 +1,15 @@
+package Modelos;
+
+import java.util.ArrayList;
+
+import lombok.Data;
+
+@Data
+public class Resultado {
+	private ArrayList<Ronda> rondas = new ArrayList<Ronda>();
+	private String ruta;
+
+	public Resultado(String ruta) {
+		this.ruta=ruta;
+	}
+}

@@ -1,0 +1,16 @@
+package Modelos;
+
+import java.util.ArrayList;
+
+import lombok.Data;
+
+@Data
+public class Pronostico {
+	private ArrayList<Usuario> usuarios = new ArrayList<Usuario>();
+	private String ruta;
+
+	public Pronostico(String ruta) {
+		// TODO Auto-generated constructor stub
+		this.ruta=ruta;
+	}
+}
